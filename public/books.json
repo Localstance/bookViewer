@@ -1,0 +1,81 @@
+{
+    "books": [
+        {
+            "name": "React: Up & Running",
+            "authors": [{
+                "name": "Stoyan Stefanov",
+                "id": 1
+            }],
+            "about": "With Early Release ebooks, you get books in their earliest form—the author's raw and unedited content as he or she writes—so you can take advantage of these technologies long before the official release of these titles. You'll also receive updates when significant changes are made, new chapters are available, and the final ebook bundle is released. React is a new, open-source technology from Facebook that has stirred quite a storm in the web development community, and some would say it’s the next best thing to a silver bullet for building web applications. With React: Up and Running you'll learn how to get off the ground with React, with no prior knowledge. This book teaches you how to build components, the building blocks of your apps, as well as how to organize the components into large-scale apps. In addition, you’ll learn about unit testing and optimizing performance, while focusing on the application’s data (and letting the UI take care of itself).",
+            "genre": "IT",
+            "id": 1
+        },
+        {
+            "name": "JavaScript Patterns",
+            "authors": [{
+                "name": "Stoyan Stefanov",
+                "id": 1
+            }],
+            "about": "What's the best approach for developing an application with JavaScript? This book helps you answer that question with numerous JavaScript coding patterns and best practices. If you're an experienced developer looking to solve problems related to objects, functions, inheritance, and other language-specific categories, the abstractions and code templates in this guide are ideal—whether you're using JavaScript to write a client-side, server-side, or desktop application. Written by JavaScript expert Stoyan Stefanov—Senior Yahoo! Technical and architect of YSlow 2.0, the web page performance optimization tool—JavaScript Patterns includes practical advice for implementing each pattern discussed, along with several hands-on examples. You'll also learn about anti-patterns: common programming approaches that cause more problems than they solve.",
+            "genre": "IT",
+            "id": 2
+        },
+        {
+            "name": "You Don't Know JS: Up & Going",
+            "authors": [{
+                "name": "Kyle Simpson",
+                "id": 2
+            }],
+            "genre": "IT",
+            "about": "It’s easy to learn parts of JavaScript, but much harder to learn it completely—or even sufficiently—whether you’re new to the language or have used it for years. With the 'You Don’t Know JS' book series, you’ll get a more complete understanding of JavaScript, including trickier parts of the language that many experienced JavaScript programmers simply avoid. The series’ first book, Up & Going, provides the necessary background for those of you with limited programming experience. By learning the basic building blocks of programming, as well as JavaScript’s core mechanisms, you’ll be prepared to dive into the other, more in-depth books in the series—and be well on your way toward true JavaScript.",
+            "id": 3
+        },
+        {
+            "name" : "The Lord of the Rings",
+            "authors": [{
+                "name": "J.R.R. Tolkien",
+                "id": 3
+            }],
+            "genre": "fantasy",
+            "about": "One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them. In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell by chance into the hands of the hobbit Bilbo Baggins. From Sauron's fastness in the Dark Tower of Mordor, his power spread far and wide. Sauron gathered all the Great Rings to him, but always he searched for the One Ring that would complete his dominion. When Bilbo reached his eleventy-first birthday he disappeared, bequeathing to his young cousin Frodo the Ruling Ring and a perilous quest: to journey across Middle-earth, deep into the shadow of the Dark Lord, and destroy the Ring by casting it into the Cracks of Doom. The Lord of the Rings tells of the great quest undertaken by Frodo and the Fellowship of the Ring: Gandalf the Wizard; the hobbits Merry, Pippin, and Sam; Gimli the Dwarf; Legolas the Elf; Boromir of Gondor; and a tall, mysterious stranger called Strider.",
+            "id": 4
+        },
+        {
+            "name" : "Harry Potter and the Half-Blood Prince",
+            "authors": [{
+                "name": "J.K. Rowling",
+                "id": 4
+            }],
+            "genre": "fantasy",
+            "about": "It is Harry Potter sixth year at Hogwarts School of Witchcraft and Wizardry. As Voldemort sinister forces amass and a spirit of gloom and fear sweeps the land, it becomes clear to Harry that he will soon have no choice but to confront his destiny. Can Harry succeed in the death-defying tasks ahead?",
+            "id": 5
+        }
+    ],
+    "authors": [
+        {
+            "name": "Stoyan Stefanov",
+            "bio": "Stoyan Stefanov is a Yahoo! web developer, Zend Certified Engineer, and an author, contributor, and tech reviewer of various O'Reilly books. He speaks regularly about web development topics at conferences and on his blog at www.phpied.com. Stoyan is the creator of the smush.it image optimization tool and architect of Yahoo's performance optimization tool YSlow 2.0.",
+            "id": 1,
+            "books": [{"name": "React: Up & Running", "id": "1"},
+                      {"name": "JavaScript Patterns", "id": "2"}]
+        },
+        {
+            "name": "Kyle Simpson",
+            "bio": "Kyle Simpson is an Open Web Evangelist from Austin, TX. He's passionate about JavaScript, HTML5, real-time/peer-to-peer communications, and web performance. Otherwise, he's probably bored by it. Kyle is an author, workshop trainer, tech speaker, and avid OSS community member.",
+            "books": [{"name": "You Don't Know JS: Up & Going", "id": "3"}],
+            "id": 2
+        },
+        {
+            "name": "J.R.R. Tolkien",
+            "bio": "J.R.R. Tolkien (1892.1973), beloved throughout the world as the creator of The Hobbit and The Lord of the Rings, was a professor of Anglo-Saxon at Oxford, a fellow of Pembroke College, and a fellow of Merton College until his retirement in 1959. His chief interest was the linguistic aspects of the early English written tradition, but even as he studied these classics he was creating a set of his own.",
+            "books": [{"name": "The Lord of the Rings", "id": "4"}],
+            "id": 3
+        },
+        {
+            "name": "J.K. Rowling",
+            "bio": "J K (Joanne Kathleen) Rowling was born in the summer of 1965 at Yate General Hospital in England and grew up in Chepstow, Gwent where she went to Wyedean Comprehensive. Jo left Chepstow for Exeter University, where she earned a French and Classics degree, and where her course included one year in Paris. As a postgraduate she moved to London to work at Amnesty International, doing research into human rights abuses in Francophone Africa. She started writing the Harry Potter series during a Manchester to London King's Cross train journey, and during the next five years, outlined the plots for each book and began writing the first novel. Jo then moved to northern Portugal, where she taught English as a foreign language. She married in October 1992 and gave birth to her daughter Jessica in 1993. When her marriage ended, she returned to the UK to live in Edinburgh, where 'Harry Potter & the Philosopher's Stone' was eventually completed and in 1996 she received an offer of publication. The following summer the world was introduced to Harry Potter.'Harry Potter and the Philosopher's Stone' was published by Bloomsbury Children's Books in June 1997 and was published as 'Harry Potter and the Sorcerer's Stone' in America by Arthur A. Levine Books/Scholastic in September 1998.",
+            "books": [{"name": "Harry Potter and the Half-Blood Prince", "id": "5"}],
+            "id": 4
+        }
+    ]
+}
